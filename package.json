@@ -1,0 +1,49 @@
+{
+  "name": "to-esm-imports",
+  "version": "1.0.0",
+  "description": "Migrate typescript files to ESM style of import (with .js extension)",
+  "author": "Michal Bajer (@outSH)",
+  "license": "MIT",
+  "keywords": [
+    "esm",
+    "cjs",
+    "ECMAScript",
+    "module specifier",
+    "relative path",
+    "import",
+    "conversion",
+    "add extension"
+  ],
+  "homepage": "https://github.com/outSH/to-esm-imports",
+  "bugs": {
+    "url": "https://github.com/outSH/to-esm-imports/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outSH/to-esm-imports.git"
+  },
+  "main": "dist/index.js",
+  "bin": {
+    "to-esm-imports": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.17",
+    "@types/yargs": "17.0.32",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "ignore": "5.3.1",
+    "loglevel": "1.9.1",
+    "yargs": "17.7.2"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
